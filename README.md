@@ -4,5 +4,5 @@
 #### Repo: 4443 2D PyGame
 #### Email: travisbalier1995@gmail.com
 #### Image:
-https://avatars1.githubusercontent.com/u/17028340?s=460&u=a5dd3fae544d938a1ba794214cb210ad39885f9a&v=4
+<img src="https://avatars3.githubusercontent.com/u/17028340?s=460&v=4" width="300">
 
