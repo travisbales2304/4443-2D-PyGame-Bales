@@ -15,8 +15,8 @@ This small Tkinter program simply creates a very small Tkinter gui window that i
 
 How to Run:
 <br>
-1.)Download main.py to desktop\n
+-Download main.py to desktop\n
 <br>
-2.)change director to that location. Ex. cd C:\Users\"your user"\Desktop
+-change director to that location. Ex. cd C:\Users\"your user"\Desktop
 <br>
-3.)type "main.py" and press enter.
+-type "main.py" and press enter.
