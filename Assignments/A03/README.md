@@ -1,6 +1,5 @@
 **Using python 3.8.3**
   - using tkinter library
-<br>
 # Setting up the development environment(Assignment 3)
 Travis Bales
 
