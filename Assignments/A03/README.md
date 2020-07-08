@@ -2,8 +2,7 @@
 <br>
 <br>
 
-## Title
-Setting up the development environment(Assignment 3)
+## Setting up the development environment(Assignment 3)
 <br>
 ## Name
 Travis Bales
