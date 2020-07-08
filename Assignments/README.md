@@ -2,4 +2,4 @@
 
 |   #   | Folder Link | Assignment Description |
 | :---: | ----------- | ---------------------- |
-|   3   |     [a link](https://github.com/user/repo/blob/branch/other_file.md)        |                        |
+|   3   |     [Assignment 3](https://github.com/user/repo/blob/branch/other_file.md)        | Get tkinter to run on Dev. Enviroment                       |
