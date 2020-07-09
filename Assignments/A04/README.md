@@ -19,6 +19,11 @@ Also use dictionaries with key value pairs to parse the json object.
 
 #### How to Run:
   - Download main.py to desktop
+  - Download playerinfo.json to desktop
   - change director to that location. Ex. cd C:\Users\"your user"\Desktop
-  - type "main.py" and press enter.
+  - type "main.py" playerinfo.json
+  
+##### Notes:
+  - you can use your own json file if it follows the same structur
+  - just use main.py "yourJsonFileName.json"
 
