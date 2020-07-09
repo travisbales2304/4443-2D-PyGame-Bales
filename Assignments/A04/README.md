@@ -13,7 +13,7 @@ Also use dictionaries with key value pairs to parse the json object.
 | :---: | --------------- | -------------------------------------------------- |
 |1| [main.py](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/A04/Main.py) |The main driver that launches the gui to produce hello world|
 |2|[playerInfo.Json](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/A04/playerInfo.json)| The json file that holds the character information|
-|3|||
+|3|[picture of output](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/A04/A04.png)| This is the expected output|
 
 <br>
 
