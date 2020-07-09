@@ -24,6 +24,13 @@ Also use dictionaries with key value pairs to parse the json object.
   - type "main.py" playerinfo.json
   
 ##### Notes:
+  - Make sure you import
+    - tkinter as tk
+    - json
+    - sys
+  - My program expects one parameter to be placed on the command line when you run the program.
+  - Parameters `<input file>` this is a json file
+  - The input file should be in the same directory as main.py
   - you can use your own json file if it follows the same structur
   - just use main.py "yourJsonFileName.json"
 
