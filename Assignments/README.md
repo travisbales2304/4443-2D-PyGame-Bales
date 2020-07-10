@@ -1,4 +1,4 @@
-#Travis Bales
+# Travis Bales
 ## 4443 2d pygame
   - using python 3.8.3
 ##  Assignments Folder
