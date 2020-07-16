@@ -11,9 +11,10 @@ The sprite is allowed to follow the mouse and be moved with the keyboard. The sp
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-|1| [main.py](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/A04/Main.py) |The main driver that launches the gui to produce hello world|
-|2|[playerInfo.Json](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/A04/playerInfo.json)| The json file that holds the character information|
-|3|[A04.png](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/A04/A04.png)|Screenshot of expected output|
+|1| [game.py](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/A05.1/game.py) |The main driver that launches the gui to produces the game window|
+|2|[shot1.png](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/A05.1/Shot1.png)| screenshot showing how it looks with sprite rendered|
+|3|[shot2.png](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/A05.1/shot2.png)|Screenshot of game screen with different color in different location|
+|4|[shot3.png](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/A05.1/shot3.png)|third screenshot of screen, notice the sprite is at the lowest point it can go
 
 <br>
 
