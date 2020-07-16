@@ -43,3 +43,5 @@ The sprite is allowed to follow the mouse and be moved with the keyboard. The sp
     
    ##### Output Images:
    <img src="Shot1.png" width="640">
+   <img src="shot2.png" width="640">
+   <img src="shot3.png" width="640">
