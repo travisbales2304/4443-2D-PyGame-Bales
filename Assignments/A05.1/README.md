@@ -16,6 +16,8 @@ The sprite is allowed to follow the mouse and be moved with the keyboard. The sp
 |3|[shot2.png](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/A05.1/shot2.png)|Screenshot of game screen with different color in different location|
 |4|[shot3.png](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/A05.1/shot3.png)|third screenshot of screen, notice the sprite is at the lowest point it can go
 
+<img src="Shot1.png" width="300">
+
 <br>
 
 #### How to Run:
