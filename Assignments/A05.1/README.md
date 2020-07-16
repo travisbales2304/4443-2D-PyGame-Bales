@@ -16,8 +16,6 @@ The sprite is allowed to follow the mouse and be moved with the keyboard. The sp
 |3|[shot2.png](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/A05.1/shot2.png)|Screenshot of game screen with different color in different location|
 |4|[shot3.png](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/A05.1/shot3.png)|third screenshot of screen, notice the sprite is at the lowest point it can go
 
-<img src="Shot1.png" width="640">
-
 <br>
 
 #### How to Run:
@@ -42,3 +40,6 @@ The sprite is allowed to follow the mouse and be moved with the keyboard. The sp
     - height - the height of the screen resolution
     - background color - the RGB value of the background window
     - size of sprite - the size of the cube you will use, the number will be both length and width
+    
+   ###### Output Images:
+   <img src="Shot1.png" width="640">
