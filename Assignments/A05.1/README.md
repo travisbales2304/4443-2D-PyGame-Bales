@@ -38,6 +38,7 @@ The sprite is allowed to follow the mouse and be moved with the keyboard. The sp
        - ↓ on keyboard to move down
        - ← on keyboard to move left
        - → on keyboard to move right
+       - Left Mouse Button(LMB) to toggle sprite to follow mouse
   
 ##### Notes:
   - Make sure you import
