@@ -29,6 +29,15 @@ The sprite is allowed to follow the mouse and be moved with the keyboard. The sp
     - height - the height of the screen resolution
     - background color - the RGB value of the background window
     - size of sprite - the size of the cube you will use, the number will be both length and width
+ #### How To Play:
+   - The game starts off by the sprite following the mouse, click on the screen to toggle this feature
+     - When you click it starts/stops the sprite from following the mouse
+   - If you want to use keyboard you need to disable follow mouse by clicking once
+     - Controls:
+       - ↑ on keyboard to move up
+       - ↓ on keyboard to move down
+       - ← on keyboard to move left
+       - → on keyboard to move right
   
 ##### Notes:
   - Make sure you import
@@ -40,7 +49,7 @@ The sprite is allowed to follow the mouse and be moved with the keyboard. The sp
     - os
     - math
     - time
-  
+  - It only uses a rectangle for the sprite at the moment because images are hard to control
     
    ##### Output Images:
    <img src="Shot1.png" width="640">
