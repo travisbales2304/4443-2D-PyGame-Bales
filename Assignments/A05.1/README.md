@@ -41,5 +41,5 @@ The sprite is allowed to follow the mouse and be moved with the keyboard. The sp
     - background color - the RGB value of the background window
     - size of sprite - the size of the cube you will use, the number will be both length and width
     
-   ###### Output Images:
+   ##### Output Images:
    <img src="Shot1.png" width="640">
