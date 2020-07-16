@@ -1,4 +1,4 @@
-# Printing Stat Cards(Assignment 4)
+# Movable sprite that doesn't leave the screen(Assignment 5.1)
 Travis Bales
 
 ## Description:
