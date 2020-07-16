@@ -22,6 +22,13 @@ The sprite is allowed to follow the mouse and be moved with the keyboard. The sp
   - Download game.py to desktop
   - change director to that location. Ex. cd C:\Users\"your user"\Desktop
   - type "main.py" title="whatever you want" width=640 height=480 220,122,122 size=70
+  - My program expects five parameters to be placed on the command line when you run the program.
+  - Parameters
+    - title - the title of the game window
+    - width - the width of the screen resolution
+    - height - the height of the screen resolution
+    - background color - the RGB value of the background window
+    - size of sprite - the size of the cube you will use, the number will be both length and width
   
 ##### Notes:
   - Make sure you import
@@ -33,13 +40,7 @@ The sprite is allowed to follow the mouse and be moved with the keyboard. The sp
     - os
     - math
     - time
-  - My program expects five parameters to be placed on the command line when you run the program.
-  - Parameters
-    - title - the title of the game window
-    - width - the width of the screen resolution
-    - height - the height of the screen resolution
-    - background color - the RGB value of the background window
-    - size of sprite - the size of the cube you will use, the number will be both length and width
+  
     
    ##### Output Images:
    <img src="Shot1.png" width="640">
