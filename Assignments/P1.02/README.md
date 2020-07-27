@@ -12,14 +12,14 @@ The sprite is allowed to move around within the map boundaries and upon hitting 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
 |1| [game_pt2.py](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/game_pt2.py) |The main driver that launches the gui to produces the game window|
-|2|[200x200 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/200x200.png)||
-|3|[300x300 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/300x300.png)||
-|4|[400x400 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/300x300.png)||
-|5|[500x500 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/500x500.png)||
-|6|[Double Barrier](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/DoubleBarrier.png)||
-|7|[Left Barrier](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/LeftBarrier.png)||
-|8|[Right Barrier](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/rightBarrier.png)||
-|8|[Barrier Message](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/barrierMessage.png)||
+|2|[200x200 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/200x200.png)|game with 200x200 screen size|
+|3|[300x300 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/300x300.png)|game with 300x300 screen size|
+|4|[400x400 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/300x300.png)|game with 400x400 screen size|
+|5|[500x500 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/500x500.png)|game with 500x500 screen size|
+|6|[Double Barrier](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/DoubleBarrier.png)|double barrier example|
+|7|[Left Barrier](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/LeftBarrier.png)|left map barrier example|
+|8|[Right Barrier](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/rightBarrier.png)|right map barrier example|
+|8|[Barrier Message](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/barrierMessage.png)|barrier message example|
 
 
 <br>
