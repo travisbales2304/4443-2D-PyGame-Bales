@@ -59,7 +59,7 @@ The sprite is allowed to move around within the map boundaries and upon hitting 
   - It only uses a rectangle for the sprite at the moment because images are hard to control
     
    ##### Output Images:
-   <img src="200x200.png" width="640">
-   <img src="300x300.png" width="640">
-   <img src="400x400.png" width="640">
+   <img src="200x200.png" width="200">
+   <img src="300x300.png" width="300">
+   <img src="400x400.png" width="400">
 
