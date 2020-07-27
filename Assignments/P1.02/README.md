@@ -36,15 +36,11 @@ The sprite is allowed to move around within the map boundaries and upon hitting 
     - background color - the RGB value of the background window
     - size of sprite - the size of the cube you will use, the number will be both length and width
  #### How To Play:
-   - The game starts off by the sprite following the mouse, click on the screen to toggle this feature
-     - When you click it starts/stops the sprite from following the mouse
-   - If you want to use keyboard you need to disable follow mouse by clicking once
      - Controls:
        - ↑ on keyboard to move up
        - ↓ on keyboard to move down
        - ← on keyboard to move left
        - → on keyboard to move right
-       - Left Mouse Button(LMB) to toggle sprite to follow mouse
   
 ##### Notes:
   - Make sure you import
