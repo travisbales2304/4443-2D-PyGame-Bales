@@ -65,6 +65,6 @@ The sprite is allowed to move around within the map boundaries and upon hitting 
    <img src="500x500.png" width="400">
    <img src="LeftBarrier.png" width="400">
    <img src="rightBarrier.png" width="400">
-   <img src="doubleBarrier.png" width="400">
+   <img src="DoubleBarrier.png" width="400">
    <img src="barrierMessage.png" width="400">
 
