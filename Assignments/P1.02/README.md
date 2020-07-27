@@ -1,9 +1,9 @@
-# Movable sprite that doesn't leave the screen(Assignment 5.1)
+# Movable sprite with Edge Detection(Project 1.02)
 Travis Bales
 
 ## Description:
 Using command line parameters set the screen size, title, color of the background, and size of sprite used in window.
-The sprite is allowed to follow the mouse and be moved with the keyboard. The sprite is not allowed to go outside of view
+The sprite is allowed to move around within the map boundaries and upon hitting the edge, a map boundary will appear and a message will appear
 <br>
 - **Using python 3.8.3**
 
@@ -11,10 +11,16 @@ The sprite is allowed to follow the mouse and be moved with the keyboard. The sp
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-|1| [game.py](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/A05.1/game.py) |The main driver that launches the gui to produces the game window|
-|2|[shot1.png](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/A05.1/Shot1.png)| screenshot showing how it looks with sprite rendered|
-|3|[shot2.png](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/A05.1/shot2.png)|Screenshot of game screen with different color in different location|
-|4|[shot3.png](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/A05.1/shot3.png)|third screenshot of screen, notice the sprite is at the lowest point it can go
+|1| [game_pt2.py](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/game_pt2.py) |The main driver that launches the gui to produces the game window|
+|2|[200x200 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/200x200.png)||
+|3|[300x300 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/300x300.png)||
+|4|[400x400 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/300x300.png)||
+|5|[500x500 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/500x500.png)||
+|6|[Double Barrier](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/DoubleBarrier.png)||
+|7|[Left Barrier](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/LeftBarrier.png)||
+|8|[Right Barrier](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/rightBarrier.png)||
+|8|[Barrier Message](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/barrierMessage.png)||
+
 
 <br>
 
