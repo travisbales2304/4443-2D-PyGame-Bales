@@ -56,7 +56,6 @@ The sprite is allowed to move around within the map boundaries and upon hitting 
     - math
     - time
     - helper_module.py
-  - It only uses a rectangle for the sprite at the moment because images are hard to control
     
    ##### Output Images:
    <img src="200x200.png" width="200">
