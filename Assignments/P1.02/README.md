@@ -25,16 +25,19 @@ The sprite is allowed to move around within the map boundaries and upon hitting 
 <br>
 
 #### How to Run:
-  - Download game.py to desktop
+  - Download game_pt2.py to desktop
   - change director to that location. Ex. cd C:\Users\"your user"\Desktop
-  - type "main.py" title="whatever you want" width=640 height=480 220,122,122 size=70
-  - My program expects five parameters to be placed on the command line when you run the program.
+  - Download character spritesheet that to desktop
+  - type "game_pt2.py 500 500 400 400 packman bg.png pacmanchar.png"
+  - My program expects seven parameters to be placed on the command line when you run the program.
   - Parameters
-    - title - the title of the game window
-    - width - the width of the screen resolution
-    - height - the height of the screen resolution
-    - background color - the RGB value of the background window
-    - size of sprite - the size of the cube you will use, the number will be both length and width
+    - game width - width of the game window
+    - game height - height of the game window
+    - player location on map x value(negative value means random) - cannot be outside of game boundaries
+    - player location on map y value(negative value means random) - cannot be outside of game boundaries
+    - title - title of the game window
+    - background - this is the directory to the background image to scroll, should be in same dir as main driver
+    - character spritesheet - this is the directory to the spritesheet you are using for your character, same as background for location
  #### How To Play:
      - Controls:
        - ↑ on keyboard to move up
@@ -52,6 +55,7 @@ The sprite is allowed to move around within the map boundaries and upon hitting 
     - os
     - math
     - time
+    - helper_module.py
   - It only uses a rectangle for the sprite at the moment because images are hard to control
     
    ##### Output Images:
