@@ -69,8 +69,8 @@ the entire system (Completely recoded everything)
    #### Output Images:
    |#|#|
    |:--:|---|
-   |<img src="deathbarrier2.png" width="500">|<img src="deathbarrier2.png" width="500">|
-   |<img src="deathbarrier2.png" width="500">|<img src="deathbarrier2.png" width="500">|
+   |<img src="shot1.png" width="400">|<img src="shot2.png" width="400">|
+   |<img src="shot3.png" width="400">|<img src="shot4.png" width="400">|
  
 
 
