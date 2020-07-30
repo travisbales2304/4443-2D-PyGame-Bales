@@ -19,7 +19,7 @@ When hitting the barrier an explosion sprite will activate
 
 
 <br>
-# HOW TO TRIGGER DEATH SPRITE
+## HOW TO TRIGGER DEATH SPRITE
   - run into a wall and click of for the death message and the death sprite will start animating until you move away from the wall
 #### How to Run:
   - Download game_pt2.py to desktop
