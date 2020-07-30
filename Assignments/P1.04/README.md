@@ -31,19 +31,18 @@ the entire system (Completely recoded everything)
 <br>
 
 #### How to Run:
-  - Download game_pt2.py to desktop
-  - change director to that location. Ex. cd C:\Users\"your user"\Desktop
-  - Download character spritesheet that to desktop
-  - type "game_pt2.py 500 500 400 400 packman bg.png pacmanchar.png"
-  - My program expects seven parameters to be placed on the command line when you run the program.
+  - Download game_pt4.py to desktop
+  - Download all other files to main directory EXCEPT the background, the background must be places in a folder in the main directory called "Images"
+  - change directory to that location. Ex. cd C:\Users\"your user"\Desktop
+  - Download all asset files
+  - type "game_pt4.py 500 500 packman links2.png 9"
+  - My program expects five parameters to be placed on the command line when you run the program.
   - Parameters
     - game width - width of the game window
     - game height - height of the game window
-    - player location on map x value(negative value means random) - cannot be outside of game boundaries
-    - player location on map y value(negative value means random) - cannot be outside of game boundaries
     - title - title of the game window
-    - background - this is the directory to the background image to scroll, should be in same dir as main driver
-    - character spritesheet - this is the directory to the spritesheet you are using for your character, same as background for location
+    - Player Character - the spritesheet for the player character
+    - Enemy count - amount of enemies on the map
  #### How To Play:
      - Controls:
        - ↑ on keyboard to move up
@@ -68,6 +67,5 @@ the entire system (Completely recoded everything)
    <img src="deathbarrier2.png" width="500">
    <img src="deathbarrier1.png" width="500">
  
-
 
 
