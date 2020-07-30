@@ -14,8 +14,8 @@ When hitting the barrier an explosion sprite will activate
 | :---: | --------------- | -------------------------------------------------- |
 |1| [game_pt2.py](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/game_pt2.py) |The main driver that launches the gui to produces the game window|
 |2|[Helper_Module.py](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/helper_module.py)|Helper module provided by Dr. Griffin|
-|3|[200x200 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/200x200.png)|game with 200x200 screen size|
-|4|[300x300 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/300x300.png)|game with 300x300 screen size|
+|3|[Death Sprite](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.03/deathbarrier1.png)|The first frame of the death sprite|
+|4|[Death Sprite2](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.03/deathbarrier2.png)|Second frame of the death sprite|
 <br>
 
 # HOW TO TRIGGER DEATH SPRITE (New 7/29/20)
