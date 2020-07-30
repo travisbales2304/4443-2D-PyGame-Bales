@@ -1,4 +1,4 @@
-# Movable sprite with Edge Detection(Project 1.02)
+# Movable sprite with Edge Detection AND death sprite on edge hit(Project 1.03)
 Travis Bales
 
 ## Description:
