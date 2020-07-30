@@ -56,13 +56,8 @@ When hitting the barrier an explosion sprite will activate
     - helper_module.py
     
    #### Output Images:
-   <img src="200x200.png" width="200">
-   <img src="300x300.png" width="300">
-   <img src="400x400.png" width="400">
-   <img src="500x500.png" width="400">
-   <img src="LeftBarrier.png" width="400">
-   <img src="rightBarrier.png" width="400">
-   <img src="DoubleBarrier.png" width="400">
-   <img src="barrierMessage.png" width="400">
+   <img src="deathbarrier2.png" width="200">
+   <img src="deathbarrier1.png" width="300">
+ 
 
 
