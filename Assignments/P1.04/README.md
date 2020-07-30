@@ -63,8 +63,8 @@ the entire system (Completely recoded everything)
     - helper_module.py
     
    #### Output Images:
-   <img src="deathbarrier2.png" width="500">
-   <img src="deathbarrier1.png" width="500">
+   |<img src="deathbarrier2.png" width="500">|<img src="deathbarrier2.png" width="500">|
+   |<img src="deathbarrier2.png" width="500">|<img src="deathbarrier2.png" width="500">|
  
 
 
