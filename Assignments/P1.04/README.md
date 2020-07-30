@@ -27,6 +27,7 @@ the entire system (Completely recoded everything)
 |12|[Screenshot2](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.04/shot2.png)|Shooting down|
 |13|[Screenshot3](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.04/shot3.png)|Shooting to the left|
 |14|[Screenshot4](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.04/shot4.png)|Shooting up|
+|15|[Player Character](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.04/links2.png)|Sprite sheet for player character|
 <br>
 
 # HOW TO TRIGGER DEATH SPRITE (New 7/29/20)
