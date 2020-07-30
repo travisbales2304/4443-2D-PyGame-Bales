@@ -18,7 +18,7 @@ When hitting the barrier an explosion sprite will activate
 |4|[300x300 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/300x300.png)|game with 300x300 screen size|
 <br>
 
-# HOW TO TRIGGER DEATH SPRITE
+# HOW TO TRIGGER DEATH SPRITE (New 7/29/20)
   - run into a wall and click of for the death message and the death sprite will start animating until you move away from the wall
 <br>
 
