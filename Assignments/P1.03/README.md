@@ -4,6 +4,7 @@ Travis Bales
 ## Description:
 Using command line parameters set the screen size, title, color of the background, and size of sprite used in window.
 The sprite is allowed to move around within the map boundaries and upon hitting the edge, a map boundary will appear and a message will appear
+When hitting the barrier an explosion sprite will activate
 <br>
 - **Using python 3.8.3**
 
@@ -15,16 +16,11 @@ The sprite is allowed to move around within the map boundaries and upon hitting 
 |2|[Helper_Module.py](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/helper_module.py)|Helper module provided by Dr. Griffin|
 |3|[200x200 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/200x200.png)|game with 200x200 screen size|
 |4|[300x300 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/300x300.png)|game with 300x300 screen size|
-|5|[400x400 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/300x300.png)|game with 400x400 screen size|
-|6|[500x500 screen size](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/500x500.png)|game with 500x500 screen size|
-|7|[Double Barrier](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/DoubleBarrier.png)|double barrier example|
-|8|[Left Barrier](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/LeftBarrier.png)|left map barrier example|
-|9|[Right Barrier](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/rightBarrier.png)|right map barrier example|
-|10|[Barrier Message](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.02/barrierMessage.png)|barrier message example|
 
 
 <br>
-
+# HOW TO TRIGGER DEATH SPRITE
+  - run into a wall and click of for the death message and the death sprite will start animating until you move away from the wall
 #### How to Run:
   - Download game_pt2.py to desktop
   - change director to that location. Ex. cd C:\Users\"your user"\Desktop
