@@ -19,9 +19,9 @@ When hitting the barrier an explosion sprite will activate
 
 
 <br>
-## HOW TO TRIGGER DEATH SPRITE
+#### HOW TO TRIGGER DEATH SPRITE
   - run into a wall and click of for the death message and the death sprite will start animating until you move away from the wall
-#### How to Run:
+##### How to Run:
   - Download game_pt2.py to desktop
   - change director to that location. Ex. cd C:\Users\"your user"\Desktop
   - Download character spritesheet that to desktop
@@ -35,14 +35,14 @@ When hitting the barrier an explosion sprite will activate
     - title - title of the game window
     - background - this is the directory to the background image to scroll, should be in same dir as main driver
     - character spritesheet - this is the directory to the spritesheet you are using for your character, same as background for location
- #### How To Play:
+ ##### How To Play:
      - Controls:
        - ↑ on keyboard to move up
        - ↓ on keyboard to move down
        - ← on keyboard to move left
        - → on keyboard to move right
   
-##### Notes:
+###### Notes:
   - Make sure you import
     - pygame
     - random
