@@ -48,7 +48,7 @@ Boundary3 = makeSprite('RightLeftBarrier.png')
 Boundary4 = makeSprite('TopBotBarrier.png')
 shotsound = makeSound('RockShot.wav')
 splosion = makeSound('Splosion.wav')
-walk = makeSound('Walk2.wav')
+#walk = makeSound('Walk2.wav')
 #initialize the bullet coords
 bullet.x = 200
 bullet.y = 200
@@ -328,7 +328,7 @@ def main(**kwargs):
         
         #if we are doing nothing we update the player with idle frames
         else:
-            stopSound(walk)
+            #stopSound(walk)
             changeSpriteImage(player, 1 * 8 + 5)
             changeSpriteImage(player2,frame%5)
 
