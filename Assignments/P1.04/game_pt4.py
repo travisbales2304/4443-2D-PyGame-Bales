@@ -15,7 +15,7 @@ import math, random, time
 #scrolling around the scrool
 screenSize(int(sys.argv[1]),int(sys.argv[2]))
 setBackgroundColour("pink")
-setBackgroundImage('Images\\Background.jpg')
+setBackgroundImage('bg.png')
 Trackerx = 0
 Trackery = 0
 
@@ -41,12 +41,14 @@ moveSprite(player2,int(sys.argv[1]) // 2,int(sys.argv[2]) // 2,1)
 #bullet is the sprite of the bullet
 player = makeSprite(sys.argv[4],32)
 bullet = makeSprite('Bullet.png',5)
+bullet2 = makeSprite('Bullet2.png',5)
 Boundary = makeSprite('TopBotBarrier.png')
 Boundary2 = makeSprite('RightLeftBarrier.png')
 Boundary3 = makeSprite('RightLeftBarrier.png')
 Boundary4 = makeSprite('TopBotBarrier.png')
 shotsound = makeSound('RockShot.wav')
 splosion = makeSound('Splosion.wav')
+walk = makeSound('Walk2.wav')
 #initialize the bullet coords
 bullet.x = 200
 bullet.y = 200
@@ -108,6 +110,7 @@ textlabel4 = makeLabel("Close to Bottom Wall", 22,200,160,"red", font="impact")
 
 
 def main(**kwargs):
+    spritecount = 0
     global Trackerx    #global tracker vaiable used throughout
     global Trackery    #global Tracker variable
     barrier = False    #bool that represents if the player has hit a barrier
@@ -127,23 +130,23 @@ def main(**kwargs):
         barrier = False
         StopScrolling = False
         #checks to see if we need to print a barrier message
-        if Trackerx >= 2875 or tempx >= 515:
+        if tempx >= 480:
             showLabel(textlabel1)
             barrier = True
             StopScrolling = True
         else:
             hideLabel(textlabel1)
-        if Trackery <= -170 or tempy == 135:
+        if tempy == 135:
             barrier = True
             StopScrolling = True
             showLabel(textlabel2)
         else: hideLabel(textlabel2)
-        if Trackery >= 3440 or tempy == 500:
+        if tempy == 500:
             barrier = True
             StopScrolling = True
             showLabel(textlabel4)
         else:hideLabel(textlabel4)
-        if Trackerx <= -435 and tempx == 75:
+        if tempx == 75:
             barrier = True
             StopScrolling = True
             showLabel(textlabel3)
@@ -168,9 +171,10 @@ def main(**kwargs):
                 bullet.y = tempy - 50
                 moveSprite(bullet,bullet.x,bullet.y)
                 rotateSprite(bullet,90)
+                hideSprite(bullet2)
                 showSprite(bullet)
             if not lockshooting:
-                playSound(shotsound)
+                #playSound(shotsound)
                 lockshooting = True
                 ShotDirection = "right"
             if Trackerx < 2675 and tempx == 300:
@@ -187,12 +191,14 @@ def main(**kwargs):
                 for thisEnemy in enemies:
                     thisEnemy.x -= 5
                 changeSpriteImage(player, 0*8+frame)
-            if Trackerx >= 2675 and tempx <= 510:
+            if Trackerx >= 2675 and tempx <= 480:
                 tempx += 5
+                changeSpriteImage(player, 0*8+frame)
                 moveSprite(player,tempx,tempy,1)
                 moveSprite(player2,tempx,tempy,1)
             elif Trackerx <= -80 and tempx < 300:
                 tempx += 5
+                changeSpriteImage(player, 0*8+frame)
                 moveSprite(player,tempx,tempy,1)
                 moveSprite(player2,tempx,tempy,1)
 
@@ -205,6 +211,7 @@ def main(**kwargs):
                 bullet.y = tempy - 50
                 moveSprite(bullet,bullet.x,bullet.y)
                 rotateSprite(bullet,180)
+                hideSprite(bullet2)
                 showSprite(bullet)
             if not lockshooting:
                 lockshooting = True
@@ -225,10 +232,12 @@ def main(**kwargs):
                 changeSpriteImage(player, 1*8+frame)
             if Trackery >= 3240 and tempy >=300 and tempy < 500:
                 tempy += 5
+                changeSpriteImage(player, 1*8+frame)
                 moveSprite(player,tempx,tempy,1)
                 moveSprite(player2,tempx,tempy,1)
             elif Trackery <= 0 and tempy < 300:
                 tempy += 5
+                changeSpriteImage(player, 1*8+frame)
                 moveSprite(player,tempx,tempy,1)
                 moveSprite(player2,tempx,tempy,1)
 
@@ -242,6 +251,7 @@ def main(**kwargs):
                 bullet.y = tempy - 50
                 moveSprite(bullet,bullet.x,bullet.y)
                 rotateSprite(bullet,-90)
+                hideSprite(bullet2)
                 showSprite(bullet)
             if not lockshooting:
                 lockshooting = True
@@ -262,10 +272,12 @@ def main(**kwargs):
                 changeSpriteImage(player, 2*8+frame)
             if Trackerx >= 2675 and tempx > 300:
                 tempx -= 5
+                changeSpriteImage(player, 2*8+frame)
                 moveSprite(player,tempx,tempy,1)
                 moveSprite(player2,tempx,tempy,1)
             elif Trackerx == -435 and tempx >= 80:
                 tempx -= 5
+                changeSpriteImage(player, 2*8+frame)
                 moveSprite(player,tempx,tempy,1)
                 moveSprite(player2,tempx,tempy,1)
 
@@ -279,9 +291,9 @@ def main(**kwargs):
                 lockshooting = not lockshooting
                 bullet.x = tempx - 50
                 bullet.y = tempy - 50
-                moveSprite(bullet,bullet.x,bullet.y)
-                rotateSprite(bullet,180)
-                showSprite(bullet)
+                moveSprite(bullet2,bullet.x,bullet.y)
+                hideSprite(bullet)
+                showSprite(bullet2)
             if not lockshooting:
                 lockshooting = True
                 ShotDirection = "up"
@@ -301,10 +313,12 @@ def main(**kwargs):
                 changeSpriteImage(player,3*8+frame)
             if Trackery >= 3240 and tempy >= 300:
                 tempy -=5
+                changeSpriteImage(player,3*8+frame)
                 moveSprite(player,tempx,tempy,1)
                 moveSprite(player2,tempx,tempy,1)
             elif Trackery <= 0 and tempy >= 140:
                 tempy -=5
+                changeSpriteImage(player,3*8+frame)
                 moveSprite(player,tempx,tempy,1)
                 moveSprite(player2,tempx,tempy,1)
 
@@ -314,6 +328,7 @@ def main(**kwargs):
         
         #if we are doing nothing we update the player with idle frames
         else:
+            stopSound(walk)
             changeSpriteImage(player, 1 * 8 + 5)
             changeSpriteImage(player2,frame%5)
 
@@ -322,13 +337,13 @@ def main(**kwargs):
             playSound(shotsound)
             time.sleep(.05)
         if ShotDirection == "right":
-            bullet.x += 20
+            bullet.x += 5
         elif ShotDirection == "left":
-            bullet.x -= 20
+            bullet.x -= 5
         elif ShotDirection == "up":
-            bullet.y -= 20
+            bullet.y -= 5
         elif ShotDirection == "down":
-            bullet.y += 20
+            bullet.y += 5
         #chets to see if the enemy is alive and checks to see if a projectile hit an enemy.
         #if an enemy has been hit it plays the death animation and hides the sprite after a short while
         #plays the exlosion sound upon impact 
@@ -343,7 +358,7 @@ def main(**kwargs):
                     thisEnemy.x = 0
                 elif thisEnemy.x < 0:
                     thisEnemy.x = 1000
-                changeSpriteImage(thisEnemy,random.randint(5,9))
+                changeSpriteImage(thisEnemy,(frame%4))
                 moveSprite(thisEnemy, thisEnemy.x, thisEnemy.y)
             if flipper == 1 and thisEnemy.alive == True:
                 thisEnemy.y += thisEnemy.yspeed
@@ -351,7 +366,7 @@ def main(**kwargs):
                     thisEnemy.y = 0
                 elif thisEnemy.y < 0:
                     thisEnemy.y = 750
-                changeSpriteImage(thisEnemy,random.randint(1,4))
+                changeSpriteImage(thisEnemy,frame%4)
                 moveSprite(thisEnemy, thisEnemy.x, thisEnemy.y)
             if flipper == 0: flipper = 1
             else: flipper = 0
@@ -362,13 +377,14 @@ def main(**kwargs):
                 playSound(splosion)
                 #hideSprite(thisEnemy)
                 hideSprite(bullet)
+                hideSprite(bullet2)
             moveSprite(thisEnemy, thisEnemy.x, thisEnemy.y)
                 
-
-        
         changeSpriteImage(bullet,frame%5)
         moveSprite(bullet,bullet.x,bullet.y)
+        moveSprite(bullet2,bullet.x,bullet.y)
         updateDisplay()
+        spritecount+=1
         tick(120)
 
     endWait()
