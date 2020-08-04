@@ -40,7 +40,7 @@ the entire system (Completely recoded everything)
 
 #### How to Run:
   - Download game_pt4.py to desktop
-  - Download all other files to main directory EXCEPT the background, the background must be places in a folder in the main directory called "Images"
+  - Download all other files to Desktop or whatever folder game_pt4.py exists in
   - change directory to that location. Ex. cd C:\Users\"your user"\Desktop
   - Download all asset files
   - type "game_pt4.py 500 500 packman links2.png 9"
