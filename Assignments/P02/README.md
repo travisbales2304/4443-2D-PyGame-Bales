@@ -37,15 +37,14 @@ If you die 15 times in one level, the game ends. IF you beat the third level you
   - Download all python files to desktop
   - Download all other files to Desktop
   - change directory to that location. Ex. cd C:\Users\"your user"\Desktop
-  - type "Tilemap.py" in the commandline
+  - type "TiledGame.py" in the commandline
   - My program takes zero parameters
  #### How To Play:
      - Controls:
-       - ↑ on keyboard to move up
-       - ↓ on keyboard to move down
+       - ↑ on keyboard to jump
        - ← on keyboard to move left
        - → on keyboard to move right
-       - Space Bar - shoot projectile in direction you are moving
+       - Space Bar - to end game on screen popup
   
 ##### Notes:
   - Make sure you import
