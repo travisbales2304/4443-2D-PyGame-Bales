@@ -11,11 +11,11 @@ If you die 15 times in one level, the game ends. IF you beat the third level you
 
 |   #   | File            | Description                                        |
 | :---: | --------------- | -------------------------------------------------- |
-|1| [game_pt4.py](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.04/game_pt4.py) |The main driver that launches the gui to produces the game window|
-|2|[pygame_functions_clean.py](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.04/pygame_functions_clean.py)|Helper module provided by StevePaget |
-|3|[Background Image](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.04/Background.jpg)|Imagine used for the background|
-|4|[Enemies](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.04/BardoFull.png)|Sprite used for the enemies|
-|5|[Bullet Sprite](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.04/Bullet.png)|Sprite used for the bullet|
+|1| [TiledGame.py](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P02/TiledGame.py) |The main driver that launches the gui to produces the game window and handles game logic|
+|2|[pygame_functions.py](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P02/pygame_functions.py)|Helper module provided by StevePaget |
+|3|[Settings.py](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P02/settings.py)|Settings File used for variables|
+|4|[SpriteHandler.py](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P02/SpriteHandler.py)|File that handles all sprites in game|
+|5|[MapCreator.py](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P02/MapCreator.py)|Python file that reads and generates a map|
 |6|[Bullet Sprite2](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.04/Bullet2.png)|Sprite used to reset bullet orientation|
 |7|[Player Sprite for wall](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.04/LinkWall.png)|sprite that shows when player hits a wall|
 |8|[Right and Left bounds](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.04/RightLeftBarrier.png)|Visual barries that is used for left and right bounds of map|
