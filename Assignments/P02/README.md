@@ -1,11 +1,9 @@
-# Movable sprite with Edge Detection with more animations,shooting,and enemies(Project 1.04)
+# Platformer with scrolling background, pickup keys, and 3 levels
 Travis Bales
 
 ## Description:
-Using command line parameters set the screen size, title, color of the background, and size of sprite used in window.
-The sprite is allowed to move around within the map boundaries and upon hitting the edge, a map boundary will appear and a message will appear
-When hitting the barrier an explosion sprite will activate, can shoot projectiles,plays sound on shooting and when hitting a mob, There is also mobs now! Many upgrades to
-the entire system (Completely recoded everything)
+This is a platformer game that uses jumping to get to the end of the level. You must also collect the key for the first two levels.
+If you die 15 times in one level, the game ends. IF you beat the third level you win the game!
 <br>
 - **Using python 3.8.3**
 
@@ -34,23 +32,13 @@ the entire system (Completely recoded everything)
 |19|[BardoFull.png](https://github.com/travisbales2304/4443-2D-PyGame-Bales/blob/master/Assignments/P1.04/BardoFull.png)|Enemy sprite animation sheet|
 <br>
 
-# HOW TO TRIGGER DEATH SPRITE (New 7/29/20)
-  - run into a wall and click of for the death message and the death sprite will start animating until you move away from the wall
-<br>
 
 #### How to Run:
-  - Download game_pt4.py to desktop
-  - Download all other files to Desktop or whatever folder game_pt4.py exists in
+  - Download all python files to desktop
+  - Download all other files to Desktop
   - change directory to that location. Ex. cd C:\Users\"your user"\Desktop
-  - Download all asset files
-  - type "game_pt4.py 500 500 packman links2.png 9"
-  - My program expects five parameters to be placed on the command line when you run the program.
-  - Parameters
-    - game width - width of the game window
-    - game height - height of the game window
-    - title - title of the game window
-    - Player Character - the spritesheet for the player character
-    - Enemy count - amount of enemies on the map
+  - type "Tilemap.py" in the commandline
+  - My program takes zero parameters
  #### How To Play:
      - Controls:
        - ↑ on keyboard to move up
