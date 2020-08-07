@@ -11,3 +11,4 @@
 |5|[Project 1.02](https://github.com/travisbales2304/4443-2D-PyGame-Bales/tree/master/Assignments/P1.02)| create a sprite that moves around the screen|
 |6|[Project 1.03](https://github.com/travisbales2304/4443-2D-PyGame-Bales/tree/master/Assignments/P1.03)|Create a game world with edge detection|
 |7|[Project 1.04](https://github.com/travisbales2304/4443-2D-PyGame-Bales/tree/master/Assignments/P1.04)|Completely recoded the game, much more additions|
+|8|[Project 2.0]|(https://github.com/travisbales2304/4443-2D-PyGame-Bales/tree/master/Assignments/P02)|Platformer game with basic game design|
