@@ -55,9 +55,10 @@ If you die 15 times in one level, the game ends. IF you beat the third level you
     - helper_module.py
     
    #### Output Images:
-   |#|#|
-   |:--:|---|
-   |<img src="shot1.png" width="400">|<img src="shot2.png" width="400">|
-   |<img src="shot3.png" width="400">|<img src="shot4.png" width="400">|
+   |#|#|#|
+   |:--:|---|---|
+   |<img src="Screenshot0.png" width="400">|<img src="Screenshot1.png" width="400">|<img src="Screenshot2.png" width="400">|
+   |<img src="Screenshot3.png" width="400">|<img src="Screenshot4.png" width="400">|<img src="Screenshot5.png" width="400">|
+   |<img src="Screenshot6.png" width="400">|<img src="Screenshot7.png" width="400">|<img src="Screenshot8.png" width="400">|
  
 
