@@ -36,6 +36,13 @@ If you die 15 times in one level, the game ends. IF you beat the third level you
   - type "TiledGame.py" in the commandline
   - My program takes zero parameters
  #### How To Play:
+     - Gameplay:
+       - Level 1 and Level 2 have a key(a box) that you much collect.
+       - Level 1 requires you to go to the farthest right of the map after collecting the box to continue
+       - Level 2 requires you to get to the farthest top left position after collection the box to continue
+       - If you die 15 times in one level, you get a game over.
+       - If you make it to the top of level 3, you win the game.
+       - To start the game you must click start level one on start screen.
      - Controls:
        - ↑ on keyboard to jump
        - ← on keyboard to move left
